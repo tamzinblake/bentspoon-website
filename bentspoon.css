@@ -219,6 +219,7 @@ ul#menu li:hover > ul {
   width: 500px;
   z-index: 250;
   position: relative;
+  padding-top: 30px;
 }
 #content p {
   text-align: justify;
