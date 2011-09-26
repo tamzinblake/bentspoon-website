@@ -238,6 +238,10 @@ ul#menu li:hover > ul {
 /*  color: #4689cf; */
   color: #cccccc;
 }
+#content .social * {
+  display: inline;
+  vertical-align: bottom;
+}
 #footer {
   color: #cccccc;
   clear: both;
