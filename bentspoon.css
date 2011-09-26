@@ -64,6 +64,7 @@ pre, code {
 #menu .menu {
   padding: 5px;
   display: block;
+  font-weight: bold;
 }
 ul#menu, ul#menu li, ul#menu ul {
   list-style: none;
