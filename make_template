@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cat header.html index.html footer.html > template.html
