@@ -11,19 +11,19 @@
     <div id="pre_logo">
     </div>
     <div id="logo">
-      <a href="/"><img src="logo.png" alt="Bent Spoon Games" title="Bent Spoon Games"></a>
+      <a href="/"><img src="images/logo.png" alt="Bent Spoon Games" title="Bent Spoon Games"></a>
     </div>
     <div id="post_logo">
       <div id="nav_wrap">
         <ul id="menu">
-        <li><a href="/"><img src="news.png" alt="NEWS"></a></li>
-        <li><a href="/games.html"><img src="games.png" alt="GAMES"></a>
+        <li id="news"><a href="/"><img class="link" src="images/news.png" alt="NEWS">&nbsp;</a></li>
+        <li id="games"><a href="/games.html"><img class="link" src="images/games.png" alt="GAMES">&nbsp;</a>
           <ul><li><a href="/girl.html"><span class="menu">Girl with a Heart of</span></a></li></ul>
         </li>
-        <li><a href="/blog"><img src="blog.png" alt="BLOG"></a></li>
-        <li><a href="/game-design.html"><img src="game_design.png" alt="GAME DESIGN"></a></li>
-        <li><a href="/about.html"><img src="about.png" alt="ABOUT"></a></li>
-        <li><a href="/contact.html"><img src="contact.png" alt="CONTACT"></a></li>
+        <li id="blog"><a href="/blog"><img class="link" src="images/blog.png" alt="BLOG">&nbsp;</a></li>
+        <li id="game_design"><a href="/game-design.html"><img class="link" src="images/game_design.png" alt="GAME DESIGN">&nbsp;</a></li>
+        <li id="about"><a href="/about.html"><img class="link" src="images/about.png" alt="ABOUT">&nbsp;</a></li>
+        <li id="contact"><a href="/contact.html"><img class="link" src="images/contact.png" alt="CONTACT">&nbsp;</a></li>
         </ul>
       </div>
     </div>
@@ -32,7 +32,7 @@
     <div id="content">
 
 <!--#include virtual="header.html" -->
-<script type="text/javascript" src="http://bentspoon-test.tumblr.com/api/read/json"></script>
+<script type="text/javascript" src="http://bentspoongames.tumblr.com/api/read/json"></script>
 <script type="text/javascript">
   // The variable "tumblr_api_read" is now set.
   var posts = tumblr_api_read.posts
@@ -49,9 +49,19 @@
     <div id="left_column">
       <div id="social">
         <ul>
-	<li><a href="https://plus.google.com/100219162987836937606/posts"><img src="gplus.png" alt="Google+"></a></li>
-        <li><a href="http://twitter.com/#!/BentSpoonGames"><img src="twitter.png" alt="Twitter"></a></li>
-        <li><a href="http://www.facebook.com/pages/Bent-Spoon-Games/265092283507748"><img src="facebook.png" alt="Facebook"></li>
+	<li><a href="https://plus.google.com/100219162987836937606/posts"><img src="images/gplus.png" alt="Google+"></a></li>
+        <li><a href="http://twitter.com/#!/BentSpoonGames"><img src="images/twitter.png" alt="Twitter"></a><a href="https://twitter.com/share" class="twitter-share-button"
+data-count="horizontal" data-via="BentSpoonGames">Tweet</a><script
+type="text/javascript" src="//platform.twitter.com/widgets.js"></script></li>
+        <li><a href="http://www.facebook.com/pages/Bent-Spoon-Games/265092283507748"><img src="images/facebook.png" alt="Facebook"></a> <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><div class="fb-like" data-send="false" data-layout="button_count"
+data-width="100" data-show-faces="false" data-colorscheme="dark"></div></li>
       </div>
       <div id="links">
         <ul>
@@ -69,7 +79,7 @@
       </p>
 
       <p>Copyright &copy; 2011 Bent Spoon Games.  All rights reserved.</p>
-      <p>Web design by : <a href="http://www.mapletreemusic.ca/arone/">aroneDESIGN</a></p>
+<!--      <p>Web design by : <a href="http://www.mapletreemusic.ca/arone/">aroneDESIGN</a></p>-->
     </div>
   </div>
   <div class="clearing">&nbsp;</div>
