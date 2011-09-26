@@ -276,9 +276,6 @@ div.clearing {
   padding-top: 85px;
   padding-left: 75px;
 }
-#social a {
-  margin-right: 1em;
-}
 #social ul {
   list-style: none;
   margin: 0;
@@ -286,14 +283,9 @@ div.clearing {
 }
 #social ul li {
   list-style: none;
+  display: inline;
   margin: 0;
   padding: 0;
-}
-#social ul li div {
-  display: inline;
-}
-#social ul li iframe {
-  padding-bottom: 14px;
 }
 #links {
   background: url(images/links.png) no-repeat top left;
