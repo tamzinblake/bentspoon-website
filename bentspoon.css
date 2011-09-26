@@ -236,6 +236,14 @@ ul#menu li:hover > ul {
   color: #7f579e;
   font-weight: bold;
 }
+#content .page-header {
+  color: #7f579e;
+  font-weight: bold;
+  font-size: 120%;
+}
+#content .unbulleted {
+  list-style: none;
+}
 #content .date {
 /*  color: #4689cf; */
   color: #cccccc;
