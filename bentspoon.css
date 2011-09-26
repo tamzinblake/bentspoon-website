@@ -45,7 +45,7 @@ pre, code {
   margin-bottom: 15px;
 }
 #post_logo {
-  background: #000000 url(topnav.png) top left no-repeat;
+  background: #000000 url(images/topnav.png) top left no-repeat;
   width: 1234px;
   height: 394px;
   margin-left: -220px;
@@ -139,68 +139,68 @@ ul#menu li:hover > ul {
 #about {
   width: 58px;
   height: 10px;
-  background: url(about.png) no-repeat center;
+  background: url(images/about.png) no-repeat center;
   -webkit-transition: 200ms;
   -moz-transition: 200ms;
   transition: 200ms;
 }
 #about:hover {
-  background: url(about_inv.png) no-repeat center;
+  background: url(images/about_inv.png) no-repeat center;
 }
 #blog {
   width: 44px;
   height: 10px;
-  background: url(blog.png) no-repeat center;
+  background: url(images/blog.png) no-repeat center;
   -webkit-transition: 200ms;
   -moz-transition: 200ms;
   transition: 200ms;
 }
 #blog:hover {
-  background: url(blog_inv.png) no-repeat center;
+  background: url(images/blog_inv.png) no-repeat center;
 }
 #contact {
   width: 82px;
   height: 10px;
-  background: url(contact.png) no-repeat center;
+  background: url(images/contact.png) no-repeat center;
   -webkit-transition: 200ms;
   -moz-transition: 200ms;
   transition: 200ms;
 }
 #contact:hover {
-  background: url(contact_inv.png) no-repeat center;
+  background: url(images/contact_inv.png) no-repeat center;
 }
 #game_design {
   width: 114px;
   height: 10px;
-  background: url(game_design.png) no-repeat center;
+  background: url(images/game_design.png) no-repeat center;
   -webkit-transition: 200ms;
   -moz-transition: 200ms;
   transition: 200ms;
 }
 #game_design:hover {
-  background: url(game_design_inv.png) no-repeat center;
+  background: url(images/game_design_inv.png) no-repeat center;
 }
 #games {
   width: 57px;
   height: 10px;
-  background: url(games.png) no-repeat center;
+  background: url(images/games.png) no-repeat center;
   -webkit-transition: 200ms;
   -moz-transition: 200ms;
   transition: 200ms;
 }
 #games:hover {
-  background: url(games_inv.png) no-repeat center;
+  background: url(images/games_inv.png) no-repeat center;
 }
 #news {
   width: 50px;
   height: 10px;
-  background: url(news.png) no-repeat center;
+  background: url(images/news.png) no-repeat center;
   -webkit-transition: 200ms;
   -moz-transition: 200ms;
   transition: 200ms;
 }
 #news:hover {
-  background: url(news_inv.png) no-repeat center;
+  background: url(images/news_inv.png) no-repeat center;
 }
 #body {
   margin-top: -350px;
@@ -237,7 +237,7 @@ ul#menu li:hover > ul {
 #footer {
   color: #cccccc;
   clear: both;
-  background: url(footer.png) no-repeat top left;
+  background: url(images/footer.png) no-repeat top left;
   width: 750px;
   height: 85px;
   font-size: 10pt;
@@ -283,7 +283,7 @@ div.clearing {
   color: #ffffff;
 }
 #social {
-  background: url(social.png) no-repeat top left;
+  background: url(images/social.png) no-repeat top left;
   margin-left: -12px;
   width: 273px;
   padding-top: 85px;
@@ -309,7 +309,7 @@ div.clearing {
   padding-bottom: 14px;
 }
 #links {
-  background: url(links.png) no-repeat top left;
+  background: url(images/links.png) no-repeat top left;
   margin-left: -9px;
   width: 268px;
   padding-top: 80px;
