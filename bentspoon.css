@@ -242,6 +242,7 @@ ul#menu li:hover > ul {
 #content .social * {
   display: inline;
   vertical-align: bottom;
+  margin-right: 0.5em;
 }
 #footer {
   color: #cccccc;
