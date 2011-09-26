@@ -210,12 +210,15 @@ ul#menu li:hover > ul {
   margin: 0;
   padding: 0;
   width: 250px;
+  z-index: 200;
 }
 #content {
   float: right;
   margin: 0;
   padding: 0;
   width: 500px;
+  z-index: 250;
+  position: relative;
 }
 #content p {
   text-align: justify;
@@ -276,6 +279,8 @@ div.clearing {
   width: 273px;
   padding-top: 85px;
   padding-left: 75px;
+  z-index: 210;
+  position: relative;
 }
 #social ul {
   list-style: none;
@@ -295,6 +300,8 @@ div.clearing {
   padding-top: 80px;
   padding-left: 40px;
   padding-bottom: 25px;
+  z-index: 210;
+  position: relative;
 }
 #links ul {
   list-style: none;
