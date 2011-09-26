@@ -248,7 +248,7 @@ ul#menu li:hover > ul {
   padding: 0;
   padding-bottom: 1em;
 }
-#footer a {
+a {
   text-shadow: 0em 0em 0.1em black;
   -webkit-transition: 200ms;
   -moz-transition: 200ms;
@@ -257,26 +257,13 @@ ul#menu li:hover > ul {
   font-weight: bold;
   text-decoration: none;
 }
-#footer a:hover, #footer a:active {
+a:hover, a:active {
   color: #ffffff !important;
   text-shadow: 0em 0em 0.3em #4689cf;
 }
 div.clearing {
   height: 0;
   clear: both;
-}
-#left_column a, #content a {
-  text-shadow: 0em 0em 0.1em black;
-  -webkit-transition: 200ms;
-  -moz-transition: 200ms;
-  transition: 200ms;
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
-}
-#left_column a:hover, #left_column a:active, #content a:hover, #content a:active {
-  color: white !important;
-  text-shadow: 0em 0em 0.3em #ffffff;
 }
 #logo a {
   text-decoration: none;
@@ -317,5 +304,5 @@ div.clearing {
   padding-bottom: 25px;
 }
 #links ul {
-  /* list-style: none; */
+  list-style: none;
 }
