@@ -232,7 +232,8 @@ ul#menu li:hover > ul {
   font-weight: bold;
 }
 #content .date {
-  color: #4689cf;
+/*  color: #4689cf; */
+  color: #cccccc;
 }
 #footer {
   color: #cccccc;
