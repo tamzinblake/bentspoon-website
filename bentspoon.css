@@ -246,7 +246,7 @@ ul#menu li:hover > ul {
 #footer p {
   margin: 0;
   padding: 0;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
 }
 a {
   text-shadow: 0em 0em 0.1em black;
