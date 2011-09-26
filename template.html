@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bent Spoon Games</title>
+<link rel="stylesheet" href="bentspoon.css" type="text/css" media="all" />
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <div id="pre_logo">
+    </div>
+    <div id="logo">
+      <a href="/"><img src="logo.png" alt="Bent Spoon Games" title="Bent Spoon Games"></a>
+    </div>
+    <div id="post_logo">
+      <div id="nav_wrap">
+        <ul id="menu">
+        <li><a href="/"><img src="news.png" alt="NEWS"></a></li>
+        <li><a href="/games.html"><img src="games.png" alt="GAMES"></a>
+          <ul><li><a href="/girl.html"><span class="menu">Girl with a Heart of</span></a></li></ul>
+        </li>
+        <li><a href="/blog"><img src="blog.png" alt="BLOG"></a></li>
+        <li><a href="/game-design.html"><img src="game_design.png" alt="GAME DESIGN"></a></li>
+        <li><a href="/about.html"><img src="about.png" alt="ABOUT"></a></li>
+        <li><a href="/contact.html"><img src="contact.png" alt="CONTACT"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="body">
+    <div id="content">
+
+<!--#include virtual="header.html" -->
+<script type="text/javascript" src="http://bentspoon-test.tumblr.com/api/read/json"></script>
+<script type="text/javascript">
+  // The variable "tumblr_api_read" is now set.
+  var posts = tumblr_api_read.posts
+  for (var i = 0; i < posts.length; i++) {
+    document.write( '<div class="post" id="NEWS-' + posts[i]['unix-timestamp']
+                  + '"><h2><span class="news">NEWS</span> |'
+                  + ' <span class="date">' + posts[i].date + '</span></h2><hr>'
+                  + posts[i]['regular-body'] + '</div>'
+                  )
+  }
+</script>
+<!--#include virtual="footer.html" -->
+    </div>
+    <div id="left_column">
+      <div id="social">
+        <ul>
+	<li><a href="https://plus.google.com/100219162987836937606/posts"><img src="gplus.png" alt="Google+"></a></li>
+        <li><a href="http://twitter.com/#!/BentSpoonGames"><img src="twitter.png" alt="Twitter"></a></li>
+        <li><a href="http://www.facebook.com/pages/Bent-Spoon-Games/265092283507748"><img src="facebook.png" alt="Facebook"></li>
+      </div>
+      <div id="links">
+        <ul>
+        <li><a href="http://lesswrong.com">LessWrong</a></li>
+        <li><a href="http://singinst.org">SIAI</a></li>
+	<li><a href="http://www.igda.org/">IGDA</a></li>
+        <li><a href="http://www.theesa.com/">The ESA</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="clearing">&nbsp;</div>
+    <div id="footer">
+      <p>
+      <a href="/">NEWS</a> | <a href="/games.html">GAMES</a> | <a href="/blog.html">BLOG</a> | <a href="/game-design.html">GAME DESIGN</a> | <a href="/about.html">ABOUT</a> | <a href="/contact.html">CONTACT</a>
+      </p>
+
+      <p>Copyright &copy; 2011 Bent Spoon Games.  All rights reserved.</p>
+      <p>Web design by : <a href="http://www.mapletreemusic.ca/arone/">aroneDESIGN</a></p>
+    </div>
+  </div>
+  <div class="clearing">&nbsp;</div>
+<!--[if lt IE 7]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>Consider upgrading to <a href="http://www.google.com/chrome">Google Chrome</a></div> <![endif]-->
+</div>
+</body>
+</html>
