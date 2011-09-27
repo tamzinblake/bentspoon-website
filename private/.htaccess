@@ -1,0 +1,8 @@
+AuthUserFile /dev/null
+AuthGroupFile /dev/null
+AuthName "Private resources"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
