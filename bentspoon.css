@@ -43,6 +43,8 @@ pre, code {
   background-color: #000000;
   text-align: center;
   margin-bottom: 15px;
+  position: relative;
+  z-index: 100;
 }
 #post_logo {
   background: #000000 url(images/topnav.png) top left no-repeat;
