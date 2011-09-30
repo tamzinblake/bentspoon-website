@@ -126,12 +126,13 @@ ul#menu li:hover > ul {
 }
 #body {
   margin-top: -350px;
+  margin-left: -50px;
 }
 #left_column {
   float: left;
   margin: 0;
   padding: 0;
-  width: 250px;
+  width: 225px;
   z-index: 200;
   position: relative;
 }
@@ -139,7 +140,7 @@ ul#menu li:hover > ul {
   float: right;
   margin: 0;
   padding: 0;
-  width: 490px;
+  width: 515px;
   z-index: 250;
   position: relative;
   padding-top: 30px;
@@ -184,6 +185,7 @@ ul#menu li:hover > ul {
   height: 85px;
   font-size: 10pt;
   padding: 1em;
+  margin-left: 50px;
 }
 #footer p {
   margin: 0;
