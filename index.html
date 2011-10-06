@@ -14,10 +14,17 @@
   var posts = tumblr_api_read.posts
   for (var i = 0; i < posts.length; i++) {
     document.write( '<div class="post" id="NEWS-' + posts[i]['unix-timestamp']
-                  + '"><h2><span class="news">' + posts[i]['regular-title']
+                  + '"><h2><span class="news">'
+                  + ( posts[i]['type'] == 'regular' ? posts[i]['regular-title']
+                    : posts[i]['type'] == 'video' ? posts[i]['video-caption']
+                    : ''
+                    )
                   + '</span> |'
                   + ' <span class="date">' + posts[i].date + '</span></h2><hr>'
-                  + posts[i]['regular-body']
+                  + ( posts[i]['type'] == 'regular' ? posts[i]['regular-body']
+                    : posts[i]['type'] == 'video' ? posts[i]['video-player']
+                    : ''
+                    )
                   + '<div class="social">'
                   + '<a href="https://twitter.com/share"'
                   + ' class="twitter-share-button"'
