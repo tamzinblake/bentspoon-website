@@ -38,7 +38,7 @@ pre, code {
 }
 #logo {
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   position: relative;
   z-index: 100;
 }
@@ -182,6 +182,9 @@ ul#menu li:hover > ul {
   vertical-align: bottom;
   margin-right: 0.5em;
 }
+#content div#screenshots p {
+  margin-bottom: 2em;
+}
 #footer {
   color: #cccccc;
   clear: both;
@@ -235,10 +238,11 @@ div.clearing {
 }
 #buy {
   background: url(/images/buy.png) no-repeat top left;
-  margin-left: -9px;
+  margin-left: 3px;
+  margin-top: 30px;
   width: 268px;
   padding-top: 80px;
-  padding-left: 40px;
+  padding-left: 45px;
   padding-bottom: 25px;
   z-index: 210;
   position: relative;
