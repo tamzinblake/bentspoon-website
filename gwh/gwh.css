@@ -88,9 +88,23 @@ ul#menu li#bsg {
 }
 .bent {
   color: #4689cf;
+  -webkit-transition: color 200ms, text-shadow 200ms;
+  -moz-transition: color 200ms, text-shadow 200ms;
+  -o-transition: color 200ms, text-shadow 200ms;
+  transition: color 200ms, text-shadow 200ms;
 }
 .spoongames {
   color: #7f579e;
+  -webkit-transition: color 200ms, text-shadow 200ms;
+  -moz-transition: color 200ms, text-shadow 200ms;
+  -o-transition: color 200ms, text-shadow 200ms;
+  transition: color 200ms, text-shadow 200ms;
+}
+#footer a:hover .bent {
+  color: #ffffff;
+}
+#footer a:hover .spoongames {
+  color: #ffffff;
 }
 ul#menu li.hover, ul#menu li:hover {
   position: relative;
